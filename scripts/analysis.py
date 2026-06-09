@@ -4,7 +4,7 @@ import pickle
 import hashlib
 
 DB_PASSWORD = "super_secreto_123"           # B105 - hardcoded password string
-API_KEY = "sk_live_1234567890abcdef"        # B105 - hardcoded secret
+API_KEY = "hardcoded_api_key_insecure_demo_1234567890"        # B105 - hardcoded secret
 
 def ejecutar_reporte(nombre_archivo):
     # B605 - subprocess con shell=True → command injection

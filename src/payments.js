@@ -1,4 +1,5 @@
-const STRIPE_KEY = "process.env.STRIPE_KEY";   // Vulnerability: API key expuesta
+const STRIPE_KEY     = "payment_api_key_prod_hardcoded_demo1234567890";
+const DB_CONNECTION = "postgresql://admin:db_password_hardcoded_never_do_this@prod-db.empresa.com/pagos";
 const DB_URL     = "process.env.DB_URL"; // Vulnerability: connection string
 
 function procesarPago(monto, tarjeta) {
